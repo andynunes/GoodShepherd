@@ -1,0 +1,15 @@
+In file included from /Users/andy/456/proj/GoodShephard/src/http_sniffer.h:29,
+                 from /Users/andy/456/proj/GoodShephard/src/main.cpp:10:
+/Users/andy/456/proj/GoodShephard/src/http_packet.h:34:38: error: boost/algorithm/string.hpp: No such file or directory
+/Users/andy/456/proj/GoodShephard/src/http_packet.h:35:37: error: http-parser/http_parser.h: No such file or directory
+In file included from /Users/andy/456/proj/GoodShephard/src/http_sniffer.h:29,
+                 from /Users/andy/456/proj/GoodShephard/src/main.cpp:10:
+/Users/andy/456/proj/GoodShephard/src/http_packet.h:76: error: 'http_parser' does not name a type
+/Users/andy/456/proj/GoodShephard/src/http_packet.h:77: error: 'http_parser_settings' does not name a type
+/Users/andy/456/proj/GoodShephard/src/http_packet.h:88: error: 'http_parser' has not been declared
+/Users/andy/456/proj/GoodShephard/src/http_packet.h:89: error: 'http_parser' has not been declared
+/Users/andy/456/proj/GoodShephard/src/http_packet.h:90: error: 'http_parser' has not been declared
+/Users/andy/456/proj/GoodShephard/src/http_packet.h:91: error: 'http_parser' has not been declared
+/Users/andy/456/proj/GoodShephard/src/http_packet.h:92: error: 'http_parser' has not been declared
+/Users/andy/456/proj/GoodShephard/src/http_packet.h:93: error: 'http_parser' has not been declared
+/Users/andy/456/proj/GoodShephard/src/http_packet.h:94: error: 'http_parser' has not been declared

@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1B11DAD13303B800070AB0A /* libpcap.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B11DAC13303B800070AB0A /* libpcap.dylib */; };
+		A1B11DAE13303BD60070AB0A /* GoodShephard.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859E8B029090EE04C91782 /* GoodShephard.1 */; };
+		A1B11DAF13303BF20070AB0A /* http_sniffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A11956F7132CA1AA004469AA /* http_sniffer.cpp */; };
+		A1B11DB113303BF20070AB0A /* http_packet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A16CC4241311E30D00981951 /* http_packet.cpp */; };
+		A1B11DB513303BF20070AB0A /* http_parser.c in Sources */ = {isa = PBXBuildFile; fileRef = A11956F6132CA14C004469AA /* http_parser.c */; };
+		A1B11DB613303C000070AB0A /* Handlers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A11956F9132CA1CB004469AA /* Handlers.cpp */; };
+		A1B11DB813303C000070AB0A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A11956FB132CA1CB004469AA /* main.cpp */; };
+		A1B11DBB13303C000070AB0A /* Session.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A11956FE132CA1CB004469AA /* Session.cpp */; };
+		A1B11DBD13303C000070AB0A /* Shephard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1195700132CA1CB004469AA /* Shephard.cpp */; };
+		A1B11DBF13303C000070AB0A /* User.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1195702132CA1CB004469AA /* User.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A1B11DA413303A000070AB0A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				A1B11DAE13303BD60070AB0A /* GoodShephard.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A11956F6132CA14C004469AA /* http_parser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = http_parser.c; sourceTree = "<group>"; };
+		A11956F7132CA1AA004469AA /* http_sniffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = http_sniffer.cpp; sourceTree = "<group>"; };
+		A11956F8132CA1AA004469AA /* http_sniffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = http_sniffer.h; sourceTree = "<group>"; };
+		A11956F9132CA1CB004469AA /* Handlers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Handlers.cpp; sourceTree = "<group>"; };
+		A11956FA132CA1CB004469AA /* Handlers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Handlers.h; sourceTree = "<group>"; };
+		A11956FB132CA1CB004469AA /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A11956FC132CA1CB004469AA /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		A11956FD132CA1CB004469AA /* myHandlers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myHandlers.h; sourceTree = "<group>"; };
+		A11956FE132CA1CB004469AA /* Session.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Session.cpp; sourceTree = "<group>"; };
+		A11956FF132CA1CB004469AA /* Session.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Session.h; sourceTree = "<group>"; };
+		A1195700132CA1CB004469AA /* Shephard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Shephard.cpp; sourceTree = "<group>"; };
+		A1195701132CA1CB004469AA /* Shephard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shephard.h; sourceTree = "<group>"; };
+		A1195702132CA1CB004469AA /* User.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = User.cpp; sourceTree = "<group>"; };
+		A1195703132CA1CB004469AA /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		A16CC01A13108F2500981951 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A16CC12C13109D4500981951 /* http_parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = http_parser.h; sourceTree = "<group>"; };
+		A16CC4241311E30D00981951 /* http_packet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = http_packet.cpp; sourceTree = "<group>"; };
+		A16CC4251311E30D00981951 /* http_packet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = http_packet.h; sourceTree = "<group>"; };
+		A16CC4281311E30D00981951 /* tcpip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tcpip.h; sourceTree = "<group>"; };
+		A1B11DA613303A000070AB0A /* GoodShephard */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GoodShephard; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B11DAC13303B800070AB0A /* libpcap.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpcap.dylib; path = usr/lib/libpcap.dylib; sourceTree = SDKROOT; };
+		A1F8095C131C740C00AF1889 /* Model.xcclassmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcclassmodel; path = Model.xcclassmodel; sourceTree = "<group>"; };
+		C6859E8B029090EE04C91782 /* GoodShephard.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = GoodShephard.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1B11DA313303A000070AB0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B11DAD13303B800070AB0A /* libpcap.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* GoodShephard */ = {
+			isa = PBXGroup;
+			children = (
+				A1B11DAC13303B800070AB0A /* libpcap.dylib */,
+				A16CC11E13109CC600981951 /* deps */,
+				08FB7795FE84155DC02AAC07 /* src */,
+				C6859E8C029090F304C91782 /* Documentation */,
+				A1B11DA813303A000070AB0A /* GoodShephard */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = GoodShephard;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				A11956F9132CA1CB004469AA /* Handlers.cpp */,
+				A11956FA132CA1CB004469AA /* Handlers.h */,
+				A11956FB132CA1CB004469AA /* main.cpp */,
+				A11956FC132CA1CB004469AA /* main.h */,
+				A11956FD132CA1CB004469AA /* myHandlers.h */,
+				A11956FE132CA1CB004469AA /* Session.cpp */,
+				A11956FF132CA1CB004469AA /* Session.h */,
+				A1195700132CA1CB004469AA /* Shephard.cpp */,
+				A1195701132CA1CB004469AA /* Shephard.h */,
+				A1195702132CA1CB004469AA /* User.cpp */,
+				A1195703132CA1CB004469AA /* User.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1B11DA613303A000070AB0A /* GoodShephard */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A16CC11E13109CC600981951 /* deps */ = {
+			isa = PBXGroup;
+			children = (
+				A16CC4131311E28800981951 /* firesheep */,
+				A16CC12A13109D1C00981951 /* http-parser */,
+			);
+			path = deps;
+			sourceTree = "<group>";
+		};
+		A16CC12A13109D1C00981951 /* http-parser */ = {
+			isa = PBXGroup;
+			children = (
+				A16CC12C13109D4500981951 /* http_parser.h */,
+				A11956F6132CA14C004469AA /* http_parser.c */,
+			);
+			path = "http-parser";
+			sourceTree = "<group>";
+		};
+		A16CC4131311E28800981951 /* firesheep */ = {
+			isa = PBXGroup;
+			children = (
+				A11956F7132CA1AA004469AA /* http_sniffer.cpp */,
+				A11956F8132CA1AA004469AA /* http_sniffer.h */,
+				A16CC4241311E30D00981951 /* http_packet.cpp */,
+				A16CC4251311E30D00981951 /* http_packet.h */,
+				A16CC4281311E30D00981951 /* tcpip.h */,
+			);
+			path = firesheep;
+			sourceTree = "<group>";
+		};
+		A1B11DA813303A000070AB0A /* GoodShephard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GoodShephard;
+			sourceTree = "<group>";
+		};
+		C6859E8C029090F304C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				A16CC01A13108F2500981951 /* Makefile */,
+				A1F8095C131C740C00AF1889 /* Model.xcclassmodel */,
+				C6859E8B029090EE04C91782 /* GoodShephard.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		A16CC0B5131096F900981951 /* Build with Make */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = A16CC0BE1310970400981951 /* Build configuration list for PBXLegacyTarget "Build with Make" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = /Users/andy/Dropbox/GoodShephard;
+			dependencies = (
+			);
+			name = "Build with Make";
+			passBuildSettingsInEnvironment = 1;
+			productName = "Build with Make";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		A1B11DA513303A000070AB0A /* GoodShephard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B11DA913303A000070AB0A /* Build configuration list for PBXNativeTarget "GoodShephard" */;
+			buildPhases = (
+				A1B11DA213303A000070AB0A /* Sources */,
+				A1B11DA313303A000070AB0A /* Frameworks */,
+				A1B11DA413303A000070AB0A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoodShephard;
+			productName = GoodShephard;
+			productReference = A1B11DA613303A000070AB0A /* GoodShephard */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Andy Nunes";
+			};
+			buildConfigurationList = 1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "GoodShephard" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* GoodShephard */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A16CC0B5131096F900981951 /* Build with Make */,
+				A1B11DA513303A000070AB0A /* GoodShephard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1B11DA213303A000070AB0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B11DB613303C000070AB0A /* Handlers.cpp in Sources */,
+				A1B11DB813303C000070AB0A /* main.cpp in Sources */,
+				A1B11DBB13303C000070AB0A /* Session.cpp in Sources */,
+				A1B11DBD13303C000070AB0A /* Shephard.cpp in Sources */,
+				A1B11DBF13303C000070AB0A /* User.cpp in Sources */,
+				A1B11DAF13303BF20070AB0A /* http_sniffer.cpp in Sources */,
+				A1B11DB113303BF20070AB0A /* http_packet.cpp in Sources */,
+				A1B11DB513303BF20070AB0A /* http_parser.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB923608733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/boost/1.45.0/include,
+					deps,
+					deps/firesheep,
+					"deps/http-parser",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB923708733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/boost/1.45.0/include,
+					deps,
+					deps/firesheep,
+					"deps/http-parser",
+				);
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		A16CC0B6131096F900981951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Build with Make";
+			};
+			name = Debug;
+		};
+		A16CC0B7131096F900981951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "Build with Make";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		A1B11DAA13303A000070AB0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A1B11DAB13303A000070AB0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "GoodShephard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923608733DC60010E9CD /* Debug */,
+				1DEB923708733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A16CC0BE1310970400981951 /* Build configuration list for PBXLegacyTarget "Build with Make" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A16CC0B6131096F900981951 /* Debug */,
+				A16CC0B7131096F900981951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1B11DA913303A000070AB0A /* Build configuration list for PBXNativeTarget "GoodShephard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B11DAA13303A000070AB0A /* Debug */,
+				A1B11DAB13303A000070AB0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
