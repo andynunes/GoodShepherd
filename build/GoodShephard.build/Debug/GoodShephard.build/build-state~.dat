@@ -1,447 +1,0 @@
-TGoodShephard
-v7
-r0
-t319865130.617463
-cCheck dependencies
-cCompileC build/GoodShephard.build/Debug/GoodShephard.build/Objects-normal/x86_64/http_packet.o /Users/andy/456/proj/GoodShephard/src/http_packet.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-cCompileC build/GoodShephard.build/Debug/GoodShephard.build/Objects-normal/x86_64/User.o /Users/andy/456/proj/GoodShephard/src/User.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-cCompileC build/GoodShephard.build/Debug/GoodShephard.build/Objects-normal/x86_64/Session.o /Users/andy/456/proj/GoodShephard/src/Session.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-cCompileC build/GoodShephard.build/Debug/GoodShephard.build/Objects-normal/x86_64/http_sniffer.o /Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-cCompileC build/GoodShephard.build/Debug/GoodShephard.build/Objects-normal/x86_64/main.o /Users/andy/456/proj/GoodShephard/src/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-
-N/Developer/SDKs/MacOSX10.6.sdk
-c000000004C5342BA00000000000000EE
-t1280524986
-s238
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/arpa/inet.h
-c000000004AC598620000000000001533
-t1254463586
-s5427
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/netinet/in.h
-c000000004C4DE4AE000000000000539D
-t1280173230
-s21405
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/pcap.h
-c000000004C4DED4B0000000000000910
-t1280175435
-s2320
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/types.h
-c000000004C4DE4B40000000000002905
-t1280173236
-s10501
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdint.h
-c000000004AC59DB7000000000000190C
-t1254464951
-s6412
-
-N/Users/andy/456/proj/GoodShephard/HTTPPacket.cpp
-c000000004D6036F3000000000000009F
-t1298151155
-s159
-i"HTTPPacket.h"
-
-N/Users/andy/456/proj/GoodShephard/HTTPPacket.h
-c000000004D6037040000000000000084
-t1298151172
-s132
-
-N/Users/andy/456/proj/GoodShephard/HTTPSniffer.cpp
-c000000004D6054DC00000000000000A3
-t1298158812
-s163
-i"HTTPSniffer.h"
-
-N/Users/andy/456/proj/GoodShephard/HTTPSniffer.h
-c000000004D6054DB00000000000000AE
-t1298158811
-s174
-
-N/Users/andy/456/proj/GoodShephard/Session.cpp
-c000000004D603E370000000000000099
-t1298153015
-s153
-i"Session.h"
-
-N/Users/andy/456/proj/GoodShephard/Session.h
-c000000004D6053B70000000000000112
-t1298158519
-s274
-
-N/Users/andy/456/proj/GoodShephard/User.cpp
-c000000004D603E2A0000000000000093
-t1298153002
-s147
-i"User.h"
-
-N/Users/andy/456/proj/GoodShephard/User.h
-c000000004D603E2A000000000000007E
-t1298153002
-s126
-
-N/Users/andy/456/proj/GoodShephard/build/Debug/GoodShephard
-t2
-s0
-
-N/Users/andy/456/proj/GoodShephard/build/GoodShephard.build/Debug/GoodShephard.build/Objects-normal/x86_64/GoodShephard.LinkFileList
-c000000004D6089A80000000000000247
-t1298172328
-s583
-
-N/Users/andy/456/proj/GoodShephard/build/GoodShephard.build/Debug/GoodShephard.build/Objects-normal/x86_64/HTTPPacket.o
-t2
-s0
-
-N/Users/andy/456/proj/GoodShephard/build/GoodShephard.build/Debug/GoodShephard.build/Objects-normal/x86_64/HTTPSniffer.o
-t2
-s0
-
-N/Users/andy/456/proj/GoodShephard/build/GoodShephard.build/Debug/GoodShephard.build/Objects-normal/x86_64/Session.o
-t1298172329
-s15048
-
-N/Users/andy/456/proj/GoodShephard/build/GoodShephard.build/Debug/GoodShephard.build/Objects-normal/x86_64/User.o
-t2
-s0
-
-N/Users/andy/456/proj/GoodShephard/build/GoodShephard.build/Debug/GoodShephard.build/Objects-normal/x86_64/http_packet.o
-t2
-s0
-
-N/Users/andy/456/proj/GoodShephard/build/GoodShephard.build/Debug/GoodShephard.build/Objects-normal/x86_64/http_sniffer.o
-t2
-s0
-
-N/Users/andy/456/proj/GoodShephard/build/GoodShephard.build/Debug/GoodShephard.build/Objects-normal/x86_64/main.o
-t2
-s0
-
-N/Users/andy/456/proj/GoodShephard/deps/http-parser/http_parser.h
-c000000004D0D22B90000000000001294
-t1292706489
-s4756
-i<sys/types.h>
-i<stdint.h>
-
-N/Users/andy/456/proj/GoodShephard/http_sniffer.cpp
-c000000004D597721000000000000215E
-t1297708833
-s8542
-i<boost/format.hpp>
-i<pcap.h>
-i"http_sniffer.hpp"
-i"http_packet.hpp"
-i"tcpip.h"
-
-N/Users/andy/456/proj/GoodShephard/http_sniffer.hpp
-c000000004D6056E8000000000000066E
-t1298159336
-s1646
-i<string>
-i<sys/types.h>
-i"http_packet.hpp"
-
-N/Users/andy/456/proj/GoodShephard/main.cpp
-c000000004D6040B200000000000000A8
-t1298153650
-s168
-i<iostream>
-i<HTTPSniffer.h>
-
-N/Users/andy/456/proj/GoodShephard/src/HTTPPacket.cpp
-c000000004D6036F3000000000000009F
-t1298151155
-s159
-i"HTTPPacket.h"
-
-N/Users/andy/456/proj/GoodShephard/src/HTTPPacket.h
-c000000004D6037040000000000000084
-t1298151172
-s132
-
-N/Users/andy/456/proj/GoodShephard/src/Session.cpp
-c000000004D603E370000000000000099
-t1298153015
-s153
-i"Session.h"
-
-N/Users/andy/456/proj/GoodShephard/src/Session.h
-c000000004D6089560000000000000183
-t1298172246
-s387
-i<string>
-
-N/Users/andy/456/proj/GoodShephard/src/User.cpp
-c000000004D603E2A0000000000000093
-t1298153002
-s147
-i"User.h"
-
-N/Users/andy/456/proj/GoodShephard/src/User.h
-c000000004D60890700000000000001EA
-t1298172167
-s490
-i<string>
-
-N/Users/andy/456/proj/GoodShephard/src/http_packet.cpp
-c000000004D6074A70000000000000FFB
-t1298166951
-s4091
-i"http_packet.h"
-
-N/Users/andy/456/proj/GoodShephard/src/http_packet.h
-c000000004D60731C0000000000000C74
-t1298166556
-s3188
-i<iostream>
-i<string>
-i<map>
-i<vector>
-i<boost/algorithm/string.hpp>
-i"http-parser/http_parser.h"
-i"User.h"
-i"Session.h"
-
-N/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp
-c000000004D6075A30000000000002141
-t1298167203
-s8513
-i<boost/format.hpp>
-i<pcap.h>
-i"http_sniffer.h"
-i"tcpip.h"
-
-N/Users/andy/456/proj/GoodShephard/src/http_sniffer.h
-c000000004D6075A50000000000000674
-t1298167205
-s1652
-i<string>
-i<sys/types.h>
-i"http_packet.h"
-
-N/Users/andy/456/proj/GoodShephard/src/http_sniffer.hpp
-c000000004D6056E8000000000000066E
-t1298159336
-s1646
-i<string>
-i<sys/types.h>
-i"http_packet.hpp"
-
-N/Users/andy/456/proj/GoodShephard/src/main.cpp
-c000000004D6088A500000000000000E9
-t1298172069
-s233
-i"http_sniffer.h"
-i"http_packet.h"
-
-N/Users/andy/456/proj/GoodShephard/src/tcpip.h
-c000000004D606BA1000000000000141D
-t1298164641
-s5149
-i<sys/types.h>
-i<netinet/in.h>
-i<arpa/inet.h>
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies319865127#319865128#0(113"[WARN]warning: no rule to process file '$(PROJECT_DIR)/Makefile' of type sourcecode.make for architecture x86_641(22@106"warning: no rule to process file '$(PROJECT_DIR)/Makefile' of type sourcecode.make for architecture x86_64319865127#18446744073709551615#0#0(1@0"0(0#1#0"8627740736#0"0#
-
-CCompileC build/GoodShephard.build/Debug/GoodShephard.build/Objects-normal/x86_64/HTTPPacket.o /Users/andy/456/proj/GoodShephard/HTTPPacket.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/GoodShephard.build/Debug/GoodShephard.build/Objects-normal/x86_64/HTTPPacket.o /Users/andy/456/proj/GoodShephard/src/HTTPPacket.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/GoodShephard.build/Debug/GoodShephard.build/Objects-normal/x86_64/HTTPSniffer.o /Users/andy/456/proj/GoodShephard/HTTPSniffer.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/GoodShephard.build/Debug/GoodShephard.build/Objects-normal/x86_64/Session.o /Users/andy/456/proj/GoodShephard/Session.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/GoodShephard.build/Debug/GoodShephard.build/Objects-normal/x86_64/Session.o /Users/andy/456/proj/GoodShephard/src/Session.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-s319865129.351048
-e319865129.633995
-r1
-xCompileC
-xbuild/GoodShephard.build/Debug/GoodShephard.build/Objects-normal/x86_64/Session.o
-x/Users/andy/456/proj/GoodShephard/src/Session.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@57"Compile /Users/andy/456/proj/GoodShephard/src/Session.cpp319865129#319865129#0(0"0(0#0#49"/Users/andy/456/proj/GoodShephard/src/Session.cpp8626111936#1336"    cd /Users/andy/456/proj/GoodShephard    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/andy/456/proj/GoodShephard/build/GoodShephard.build/Debug/GoodShephard.build/GoodShephard-generated-files.hmap -I/Users/andy/456/proj/GoodShephard/build/GoodShephard.build/Debug/GoodShephard.build/GoodShephard-own-target-headers.hmap -I/Users/andy/456/proj/GoodShephard/build/GoodShephard.build/Debug/GoodShephard.build/GoodShephard-all-target-headers.hmap -iquote /Users/andy/456/proj/GoodShephard/build/GoodShephard.build/Debug/GoodShephard.build/GoodShephard-project-headers.hmap -F/Users/andy/456/proj/GoodShephard/build/Debug -I/Users/andy/456/proj/GoodShephard/build/Debug/include -I/Users/andy/456/proj/GoodShephard/build/GoodShephard.build/Debug/GoodShephard.build/DerivedSources/x86_64 -I/Users/andy/456/proj/GoodShephard/build/GoodShephard.build/Debug/GoodShephard.build/DerivedSources -c /Users/andy/456/proj/GoodShephard/src/Session.cpp -o /Users/andy/456/proj/GoodShephard/build/GoodShephard.build/Debug/GoodShephard.build/Objects-normal/x86_64/Session.o0#
-
-CCompileC build/GoodShephard.build/Debug/GoodShephard.build/Objects-normal/x86_64/User.o /Users/andy/456/proj/GoodShephard/User.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/GoodShephard.build/Debug/GoodShephard.build/Objects-normal/x86_64/User.o /Users/andy/456/proj/GoodShephard/src/User.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-s319865128.110326
-e319865129.350934
-r0
-xCompileC
-xbuild/GoodShephard.build/Debug/GoodShephard.build/Objects-normal/x86_64/User.o
-x/Users/andy/456/proj/GoodShephard/src/User.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.gcc.4_2
-oIn file included from /Users/andy/456/proj/GoodShephard/src/User.cpp:10:
-o/Users/andy/456/proj/GoodShephard/src/User.h:27: error: field 'ip' has incomplete type
-lSLF07#2@54"Compile /Users/andy/456/proj/GoodShephard/src/User.cpp319865128#319865129#0(160"In file included from /Users/andy/456/proj/GoodShephard/src/User.cpp:10:/Users/andy/456/proj/GoodShephard/src/User.h:27: error: field 'ip' has incomplete type1(4@30"Field 'ip' has incomplete type319865129#73#87#2(7@68"In file included from /Users/andy/456/proj/GoodShephard/src/User.cpp319865129#18446744073709551615#0#0(6@46"/Users/andy/456/proj/GoodShephard/src/User.cpp319845802#10#0#10#0#0"0(13@78"Field 'ip' has incomplete type in /Users/andy/456/proj/GoodShephard/src/User.h319865129#18446744073709551615#0#0(6@44"/Users/andy/456/proj/GoodShephard/src/User.h319864967#27#0#27#0#0"0(6@44"/Users/andy/456/proj/GoodShephard/src/User.h319864967#27#0#27#0#29"field '*' has incomplete type0(0#0#46"/Users/andy/456/proj/GoodShephard/src/User.cpp8626420992#1330"    cd /Users/andy/456/proj/GoodShephard    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/andy/456/proj/GoodShephard/build/GoodShephard.build/Debug/GoodShephard.build/GoodShephard-generated-files.hmap -I/Users/andy/456/proj/GoodShephard/build/GoodShephard.build/Debug/GoodShephard.build/GoodShephard-own-target-headers.hmap -I/Users/andy/456/proj/GoodShephard/build/GoodShephard.build/Debug/GoodShephard.build/GoodShephard-all-target-headers.hmap -iquote /Users/andy/456/proj/GoodShephard/build/GoodShephard.build/Debug/GoodShephard.build/GoodShephard-project-headers.hmap -F/Users/andy/456/proj/GoodShephard/build/Debug -I/Users/andy/456/proj/GoodShephard/build/Debug/include -I/Users/andy/456/proj/GoodShephard/build/GoodShephard.build/Debug/GoodShephard.build/DerivedSources/x86_64 -I/Users/andy/456/proj/GoodShephard/build/GoodShephard.build/Debug/GoodShephard.build/DerivedSources -c /Users/andy/456/proj/GoodShephard/src/User.cpp -o /Users/andy/456/proj/GoodShephard/build/GoodShephard.build/Debug/GoodShephard.build/Objects-normal/x86_64/User.o1#
-
-CCompileC build/GoodShephard.build/Debug/GoodShephard.build/Objects-normal/x86_64/http_packet.o /Users/andy/456/proj/GoodShephard/src/http_packet.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-s319865128.066181
-e319865129.679314
-r0
-xCompileC
-xbuild/GoodShephard.build/Debug/GoodShephard.build/Objects-normal/x86_64/http_packet.o
-x/Users/andy/456/proj/GoodShephard/src/http_packet.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.gcc.4_2
-oIn file included from /Users/andy/456/proj/GoodShephard/src/http_packet.cpp:27:
-o/Users/andy/456/proj/GoodShephard/src/http_packet.h:34:38: error: boost/algorithm/string.hpp: No such file or directory
-o/Users/andy/456/proj/GoodShephard/src/http_packet.h:35:37: error: http-parser/http_parser.h: No such file or directory
-oIn file included from /Users/andy/456/proj/GoodShephard/src/http_packet.h:36,
-o                 from /Users/andy/456/proj/GoodShephard/src/http_packet.cpp:27:
-o/Users/andy/456/proj/GoodShephard/src/User.h:27: error: field 'ip' has incomplete type
-oIn file included from /Users/andy/456/proj/GoodShephard/src/http_packet.cpp:27:
-o/Users/andy/456/proj/GoodShephard/src/http_packet.h:76: error: 'http_parser' does not name a type
-o/Users/andy/456/proj/GoodShephard/src/http_packet.h:77: error: 'http_parser_settings' does not name a type
-o/Users/andy/456/proj/GoodShephard/src/http_packet.h:88: error: 'http_parser' has not been declared
-o/Users/andy/456/proj/GoodShephard/src/http_packet.h:89: error: 'http_parser' has not been declared
-o/Users/andy/456/proj/GoodShephard/src/http_packet.h:90: error: 'http_parser' has not been declared
-o/Users/andy/456/proj/GoodShephard/src/http_packet.h:91: error: 'http_parser' has not been declared
-o/Users/andy/456/proj/GoodShephard/src/http_packet.h:92: error: 'http_parser' has not been declared
-o/Users/andy/456/proj/GoodShephard/src/http_packet.h:93: error: 'http_parser' has not been declared
-o/Users/andy/456/proj/GoodShephard/src/http_packet.h:94: error: 'http_parser' has not been declared
-o/Users/andy/456/proj/GoodShephard/src/http_packet.cpp: In constructor 'HttpPacket::HttpPacket(std::string, std::string)':
-o/Users/andy/456/proj/GoodShephard/src/http_packet.cpp:32: error: 'm_settings' was not declared in this scope
-o/Users/andy/456/proj/GoodShephard/src/http_packet.cpp:40: error: 'm_parser' was not declared in this scope
-o/Users/andy/456/proj/GoodShephard/src/http_packet.cpp:40: error: 'HTTP_REQUEST' was not declared in this scope
-o/Users/andy/456/proj/GoodShephard/src/http_packet.cpp:40: error: 'http_parser_init' was not declared in this scope
-o/Users/andy/456/proj/GoodShephard/src/http_packet.cpp: In member function 'bool HttpPacket::parse(const char*, int)':
-o/Users/andy/456/proj/GoodShephard/src/http_packet.cpp:47: error: 'm_parser' was not declared in this scope
-o/Users/andy/456/proj/GoodShephard/src/http_packet.cpp:47: error: 'm_settings' was not declared in this scope
-o/Users/andy/456/proj/GoodShephard/src/http_packet.cpp:47: error: 'http_parser_execute' was not declared in this scope
-o/Users/andy/456/proj/GoodShephard/src/http_packet.cpp: In member function 'std::string HttpPacket::method()':
-o/Users/andy/456/proj/GoodShephard/src/http_packet.cpp:75: error: use of enum 'http_method' without previous declaration
-o/Users/andy/456/proj/GoodShephard/src/http_packet.cpp:75: error: 'm_parser' was not declared in this scope
-o/Users/andy/456/proj/GoodShephard/src/http_packet.cpp:75: error: 'http_method_str' was not declared in this scope
-o/Users/andy/456/proj/GoodShephard/src/http_packet.cpp: In member function 'int HttpPacket::header_field_cb(const char*, size_t)':
-o/Users/andy/456/proj/GoodShephard/src/http_packet.cpp:144: error: 'boost' has not been declared
-lSLF07#2@61"Compile /Users/andy/456/proj/GoodShephard/src/http_packet.cpp319865128#319865129#0(3235"In file included from /Users/andy/456/proj/GoodShephard/src/http_packet.cpp:27:/Users/andy/456/proj/GoodShephard/src/http_packet.h:34:38: error: boost/algorithm/string.hpp: No such file or directory/Users/andy/456/proj/GoodShephard/src/http_packet.h:35:37: error: http-parser/http_parser.h: No such file or directoryIn file included from /Users/andy/456/proj/GoodShephard/src/http_packet.h:36,                 from /Users/andy/456/proj/GoodShephard/src/http_packet.cpp:27:/Users/andy/456/proj/GoodShephard/src/User.h:27: error: field 'ip' has incomplete typeIn file included from /Users/andy/456/proj/GoodShephard/src/http_packet.cpp:27:/Users/andy/456/proj/GoodShephard/src/http_packet.h:76: error: 'http_parser' does not name a type/Users/andy/456/proj/GoodShephard/src/http_packet.h:77: error: 'http_parser_settings' does not name a type/Users/andy/456/proj/GoodShephard/src/http_packet.h:88: error: 'http_parser' has not been declared/Users/andy/456/proj/GoodShephard/src/http_packet.h:89: error: 'http_parser' has not been declared/Users/andy/456/proj/GoodShephard/src/http_packet.h:90: error: 'http_parser' has not been declared/Users/andy/456/proj/GoodShephard/src/http_packet.h:91: error: 'http_parser' has not been declared/Users/andy/456/proj/GoodShephard/src/http_packet.h:92: error: 'http_parser' has not been declared/Users/andy/456/proj/GoodShephard/src/http_packet.h:93: error: 'http_parser' has not been declared/Users/andy/456/proj/GoodShephard/src/http_packet.h:94: error: 'http_parser' has not been declared/Users/andy/456/proj/GoodShephard/src/http_packet.cpp: In constructor 'HttpPacket::HttpPacket(std::string, std::string)':/Users/andy/456/proj/GoodShephard/src/http_packet.cpp:32: error: 'm_settings' was not declared in this scope/Users/andy/456/proj/GoodShephard/src/http_packet.cpp:40: error: 'm_parser' was not declared in this scope/Users/andy/456/proj/GoodShephard/src/http_packet.cpp:40: error: 'HTTP_REQUEST' was not declared in this scope/Users/andy/456/proj/GoodShephard/src/http_packet.cpp:40: error: 'http_parser_init' was not declared in this scope/Users/andy/456/proj/GoodShephard/src/http_packet.cpp: In member function 'bool HttpPacket::parse(const char*, int)':/Users/andy/456/proj/GoodShephard/src/http_packet.cpp:47: error: 'm_parser' was not declared in this scope/Users/andy/456/proj/GoodShephard/src/http_packet.cpp:47: error: 'm_settings' was not declared in this scope/Users/andy/456/proj/GoodShephard/src/http_packet.cpp:47: error: 'http_parser_execute' was not declared in this scope/Users/andy/456/proj/GoodShephard/src/http_packet.cpp: In member function 'std::string HttpPacket::method()':/Users/andy/456/proj/GoodShephard/src/http_packet.cpp:75: error: use of enum 'http_method' without previous declaration/Users/andy/456/proj/GoodShephard/src/http_packet.cpp:75: error: 'm_parser' was not declared in this scope/Users/andy/456/proj/GoodShephard/src/http_packet.cpp:75: error: 'http_method_str' was not declared in this scope/Users/andy/456/proj/GoodShephard/src/http_packet.cpp: In member function 'int HttpPacket::header_field_cb(const char*, size_t)':/Users/andy/456/proj/GoodShephard/src/http_packet.cpp:144: error: 'boost' has not been declared23(4@53"Boost/algorithm/string.hpp: No such file or directory319865128#80#120#2(7@75"In file included from /Users/andy/456/proj/GoodShephard/src/http_packet.cpp319865128#18446744073709551615#0#0(6@53"/Users/andy/456/proj/GoodShephard/src/http_packet.cpp319859751#27#0#27#0#0"0(13@108"Boost/algorithm/string.hpp: No such file or directory in /Users/andy/456/proj/GoodShephard/src/http_packet.h319865128#18446744073709551615#0#0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#34#0#34#0#0"0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#34#0#34#0#28"*: No such file or directory0(4@52"Http-parser/http_parser.h: No such file or directory319865128#200#119#2(7@75"In file included from /Users/andy/456/proj/GoodShephard/src/http_packet.cpp319865128#18446744073709551615#0#0(6@53"/Users/andy/456/proj/GoodShephard/src/http_packet.cpp319859751#27#0#27#0#0"0(13@107"Http-parser/http_parser.h: No such file or directory in /Users/andy/456/proj/GoodShephard/src/http_packet.h319865128#18446744073709551615#0#0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#35#0#35#0#0"0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#35#0#35#0#28"*: No such file or directory0(4@30"Field 'ip' has incomplete type319865129#477#87#3(7@75"In file included from /Users/andy/456/proj/GoodShephard/src/http_packet.cpp319865129#18446744073709551615#0#0(6@53"/Users/andy/456/proj/GoodShephard/src/http_packet.cpp319859751#27#0#27#0#0"0(7@73"In file included from /Users/andy/456/proj/GoodShephard/src/http_packet.h319865129#18446744073709551615#0#0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#36#0#36#0#0"0(13@78"Field 'ip' has incomplete type in /Users/andy/456/proj/GoodShephard/src/User.h319865129#18446744073709551615#0#0(6@44"/Users/andy/456/proj/GoodShephard/src/User.h319864967#27#0#27#0#0"0(6@44"/Users/andy/456/proj/GoodShephard/src/User.h319864967#27#0#27#0#29"field '*' has incomplete type0(4@34"'http_parser' does not name a type319865129#644#98#2(7@75"In file included from /Users/andy/456/proj/GoodShephard/src/http_packet.cpp319865129#18446744073709551615#0#0(6@53"/Users/andy/456/proj/GoodShephard/src/http_packet.cpp319859751#27#0#27#0#0"0(13@89"'http_parser' does not name a type in /Users/andy/456/proj/GoodShephard/src/http_packet.h319865129#18446744073709551615#0#0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#76#0#76#0#0"0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#76#0#76#0#24"'*' does not name a type0(4@43"'http_parser_settings' does not name a type319865129#742#107#2(7@75"In file included from /Users/andy/456/proj/GoodShephard/src/http_packet.cpp319865129#18446744073709551615#0#0(6@53"/Users/andy/456/proj/GoodShephard/src/http_packet.cpp319859751#27#0#27#0#0"0(13@98"'http_parser_settings' does not name a type in /Users/andy/456/proj/GoodShephard/src/http_packet.h319865129#18446744073709551615#0#0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#77#0#77#0#0"0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#77#0#77#0#24"'*' does not name a type0(4@35"'http_parser' has not been declared319865129#849#99#2(7@75"In file included from /Users/andy/456/proj/GoodShephard/src/http_packet.cpp319865129#18446744073709551615#0#0(6@53"/Users/andy/456/proj/GoodShephard/src/http_packet.cpp319859751#27#0#27#0#0"0(13@90"'http_parser' has not been declared in /Users/andy/456/proj/GoodShephard/src/http_packet.h319865129#18446744073709551615#0#0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#88#0#88#0#0"0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#88#0#88#0#25"'*' has not been declared0(4@35"'http_parser' has not been declared319865129#948#99#2(7@75"In file included from /Users/andy/456/proj/GoodShephard/src/http_packet.cpp319865129#18446744073709551615#0#0(6@53"/Users/andy/456/proj/GoodShephard/src/http_packet.cpp319859751#27#0#27#0#0"0(13@90"'http_parser' has not been declared in /Users/andy/456/proj/GoodShephard/src/http_packet.h319865129#18446744073709551615#0#0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#89#0#89#0#0"0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#89#0#89#0#25"'*' has not been declared0(4@35"'http_parser' has not been declared319865129#1047#99#2(7@75"In file included from /Users/andy/456/proj/GoodShephard/src/http_packet.cpp319865129#18446744073709551615#0#0(6@53"/Users/andy/456/proj/GoodShephard/src/http_packet.cpp319859751#27#0#27#0#0"0(13@90"'http_parser' has not been declared in /Users/andy/456/proj/GoodShephard/src/http_packet.h319865129#18446744073709551615#0#0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#90#0#90#0#0"0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#90#0#90#0#25"'*' has not been declared0(4@35"'http_parser' has not been declared319865129#1146#99#2(7@75"In file included from /Users/andy/456/proj/GoodShephard/src/http_packet.cpp319865129#18446744073709551615#0#0(6@53"/Users/andy/456/proj/GoodShephard/src/http_packet.cpp319859751#27#0#27#0#0"0(13@90"'http_parser' has not been declared in /Users/andy/456/proj/GoodShephard/src/http_packet.h319865129#18446744073709551615#0#0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#91#0#91#0#0"0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#91#0#91#0#25"'*' has not been declared0(4@35"'http_parser' has not been declared319865129#1245#99#2(7@75"In file included from /Users/andy/456/proj/GoodShephard/src/http_packet.cpp319865129#18446744073709551615#0#0(6@53"/Users/andy/456/proj/GoodShephard/src/http_packet.cpp319859751#27#0#27#0#0"0(13@90"'http_parser' has not been declared in /Users/andy/456/proj/GoodShephard/src/http_packet.h319865129#18446744073709551615#0#0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#92#0#92#0#0"0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#92#0#92#0#25"'*' has not been declared0(4@35"'http_parser' has not been declared319865129#1344#99#2(7@75"In file included from /Users/andy/456/proj/GoodShephard/src/http_packet.cpp319865129#18446744073709551615#0#0(6@53"/Users/andy/456/proj/GoodShephard/src/http_packet.cpp319859751#27#0#27#0#0"0(13@90"'http_parser' has not been declared in /Users/andy/456/proj/GoodShephard/src/http_packet.h319865129#18446744073709551615#0#0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#93#0#93#0#0"0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#93#0#93#0#25"'*' has not been declared0(4@35"'http_parser' has not been declared319865129#1443#99#2(7@75"In file included from /Users/andy/456/proj/GoodShephard/src/http_packet.cpp319865129#18446744073709551615#0#0(6@53"/Users/andy/456/proj/GoodShephard/src/http_packet.cpp319859751#27#0#27#0#0"0(13@90"'http_parser' has not been declared in /Users/andy/456/proj/GoodShephard/src/http_packet.h319865129#18446744073709551615#0#0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#94#0#94#0#0"0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#94#0#94#0#25"'*' has not been declared0(4@43"'m_settings' was not declared in this scope319865129#1664#109#0(6@53"/Users/andy/456/proj/GoodShephard/src/http_packet.cpp319859751#32#0#32#0#34"'*' was not declared in this scope0(4@41"'m_parser' was not declared in this scope319865129#1773#107#0(6@53"/Users/andy/456/proj/GoodShephard/src/http_packet.cpp319859751#40#0#40#0#34"'*' was not declared in this scope0(4@45"'HTTP_REQUEST' was not declared in this scope319865129#1880#111#0(6@53"/Users/andy/456/proj/GoodShephard/src/http_packet.cpp319859751#40#0#40#0#34"'*' was not declared in this scope0(4@49"'http_parser_init' was not declared in this scope319865129#1991#115#0(6@53"/Users/andy/456/proj/GoodShephard/src/http_packet.cpp319859751#40#0#40#0#34"'*' was not declared in this scope0(4@41"'m_parser' was not declared in this scope319865129#2224#107#0(6@53"/Users/andy/456/proj/GoodShephard/src/http_packet.cpp319859751#47#0#47#0#34"'*' was not declared in this scope0(4@43"'m_settings' was not declared in this scope319865129#2331#109#0(6@53"/Users/andy/456/proj/GoodShephard/src/http_packet.cpp319859751#47#0#47#0#34"'*' was not declared in this scope0(4@52"'http_parser_execute' was not declared in this scope319865129#2440#118#0(6@53"/Users/andy/456/proj/GoodShephard/src/http_packet.cpp319859751#47#0#47#0#34"'*' was not declared in this scope0(4@54"Use of enum 'http_method' without previous declaration319865129#2668#120#0(6@53"/Users/andy/456/proj/GoodShephard/src/http_packet.cpp319859751#75#0#75#0#0"0(4@41"'m_parser' was not declared in this scope319865129#2788#107#0(6@53"/Users/andy/456/proj/GoodShephard/src/http_packet.cpp319859751#75#0#75#0#34"'*' was not declared in this scope0(4@48"'http_method_str' was not declared in this scope319865129#2895#114#0(6@53"/Users/andy/456/proj/GoodShephard/src/http_packet.cpp319859751#75#0#75#0#34"'*' was not declared in this scope0(4@29"'boost' has not been declared319865129#3139#96#0(6@53"/Users/andy/456/proj/GoodShephard/src/http_packet.cpp319859751#144#0#144#0#25"'*' has not been declared0(0#0#53"/Users/andy/456/proj/GoodShephard/src/http_packet.cpp8626438464#1344"    cd /Users/andy/456/proj/GoodShephard    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/andy/456/proj/GoodShephard/build/GoodShephard.build/Debug/GoodShephard.build/GoodShephard-generated-files.hmap -I/Users/andy/456/proj/GoodShephard/build/GoodShephard.build/Debug/GoodShephard.build/GoodShephard-own-target-headers.hmap -I/Users/andy/456/proj/GoodShephard/build/GoodShephard.build/Debug/GoodShephard.build/GoodShephard-all-target-headers.hmap -iquote /Users/andy/456/proj/GoodShephard/build/GoodShephard.build/Debug/GoodShephard.build/GoodShephard-project-headers.hmap -F/Users/andy/456/proj/GoodShephard/build/Debug -I/Users/andy/456/proj/GoodShephard/build/Debug/include -I/Users/andy/456/proj/GoodShephard/build/GoodShephard.build/Debug/GoodShephard.build/DerivedSources/x86_64 -I/Users/andy/456/proj/GoodShephard/build/GoodShephard.build/Debug/GoodShephard.build/DerivedSources -c /Users/andy/456/proj/GoodShephard/src/http_packet.cpp -o /Users/andy/456/proj/GoodShephard/build/GoodShephard.build/Debug/GoodShephard.build/Objects-normal/x86_64/http_packet.o1#
-
-CCompileC build/GoodShephard.build/Debug/GoodShephard.build/Objects-normal/x86_64/http_sniffer.o /Users/andy/456/proj/GoodShephard/http_sniffer.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/GoodShephard.build/Debug/GoodShephard.build/Objects-normal/x86_64/http_sniffer.o /Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-s319865129.634421
-e319865130.617375
-r0
-xCompileC
-xbuild/GoodShephard.build/Debug/GoodShephard.build/Objects-normal/x86_64/http_sniffer.o
-x/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.gcc.4_2
-o/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:27:28: error: boost/format.hpp: No such file or directory
-oIn file included from /Users/andy/456/proj/GoodShephard/src/http_sniffer.h:29,
-o                 from /Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:29:
-o/Users/andy/456/proj/GoodShephard/src/http_packet.h:34:38: error: boost/algorithm/string.hpp: No such file or directory
-o/Users/andy/456/proj/GoodShephard/src/http_packet.h:35:37: error: http-parser/http_parser.h: No such file or directory
-oIn file included from /Users/andy/456/proj/GoodShephard/src/http_packet.h:36,
-o                 from /Users/andy/456/proj/GoodShephard/src/http_sniffer.h:29,
-o                 from /Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:29:
-o/Users/andy/456/proj/GoodShephard/src/User.h:27: error: field 'ip' has incomplete type
-oIn file included from /Users/andy/456/proj/GoodShephard/src/http_sniffer.h:29,
-o                 from /Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:29:
-o/Users/andy/456/proj/GoodShephard/src/http_packet.h:76: error: 'http_parser' does not name a type
-o/Users/andy/456/proj/GoodShephard/src/http_packet.h:77: error: 'http_parser_settings' does not name a type
-o/Users/andy/456/proj/GoodShephard/src/http_packet.h:88: error: 'http_parser' has not been declared
-o/Users/andy/456/proj/GoodShephard/src/http_packet.h:89: error: 'http_parser' has not been declared
-o/Users/andy/456/proj/GoodShephard/src/http_packet.h:90: error: 'http_parser' has not been declared
-o/Users/andy/456/proj/GoodShephard/src/http_packet.h:91: error: 'http_parser' has not been declared
-o/Users/andy/456/proj/GoodShephard/src/http_packet.h:92: error: 'http_parser' has not been declared
-o/Users/andy/456/proj/GoodShephard/src/http_packet.h:93: error: 'http_parser' has not been declared
-o/Users/andy/456/proj/GoodShephard/src/http_packet.h:94: error: 'http_parser' has not been declared
-o/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp: In member function 'void HttpSniffer::start()':
-o/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:49: error: 'boost' has not been declared
-o/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:49: error: 'str' was not declared in this scope
-o/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:49: error: 'runtime_error' was not declared in this scope
-o/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:55: error: 'boost' has not been declared
-o/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:55: error: 'str' was not declared in this scope
-o/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:55: error: 'runtime_error' was not declared in this scope
-o/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:59: error: 'boost' has not been declared
-o/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:59: error: 'str' was not declared in this scope
-o/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:59: error: 'runtime_error' was not declared in this scope
-o/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:63: error: 'boost' has not been declared
-o/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:63: error: 'str' was not declared in this scope
-o/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:63: error: 'runtime_error' was not declared in this scope
-o/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:67: error: 'boost' has not been declared
-o/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:67: error: 'str' was not declared in this scope
-o/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:67: error: 'runtime_error' was not declared in this scope
-o/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp: In member function 'void HttpSniffer::got_packet(const pcap_pkthdr*, const u_char*)':
-o/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:123: error: 'boost' has not been declared
-o/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:134: error: 'boost' has not been declared
-o/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:144: error: 'boost' has not been declared
-o/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:160: error: 'boost' has not been declared
-o/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:160: error: 'str' was not declared in this scope
-o/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:160: error: 'runtime_error' was not declared in this scope
-o/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:171: error: 'boost' has not been declared
-o/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:187: error: 'boost' has not been declared
-o/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:187: error: 'str' was not declared in this scope
-o/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:187: error: 'runtime_error' was not declared in this scope
-o/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:189: error: 'boost' has not been declared
-o/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:195: error: 'boost' has not been declared
-o/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:195: error: 'str' was not declared in this scope
-o/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:196: error: 'boost' has not been declared
-o/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:204: error: 'boost' has not been declared
-o/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:204: error: 'str' was not declared in this scope
-o/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:205: error: 'boost' has not been declared
-lSLF07#2@62"Compile /Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319865129#319865130#0(5412"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:27:28: error: boost/format.hpp: No such file or directoryIn file included from /Users/andy/456/proj/GoodShephard/src/http_sniffer.h:29,                 from /Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:29:/Users/andy/456/proj/GoodShephard/src/http_packet.h:34:38: error: boost/algorithm/string.hpp: No such file or directory/Users/andy/456/proj/GoodShephard/src/http_packet.h:35:37: error: http-parser/http_parser.h: No such file or directoryIn file included from /Users/andy/456/proj/GoodShephard/src/http_packet.h:36,                 from /Users/andy/456/proj/GoodShephard/src/http_sniffer.h:29,                 from /Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:29:/Users/andy/456/proj/GoodShephard/src/User.h:27: error: field 'ip' has incomplete typeIn file included from /Users/andy/456/proj/GoodShephard/src/http_sniffer.h:29,                 from /Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:29:/Users/andy/456/proj/GoodShephard/src/http_packet.h:76: error: 'http_parser' does not name a type/Users/andy/456/proj/GoodShephard/src/http_packet.h:77: error: 'http_parser_settings' does not name a type/Users/andy/456/proj/GoodShephard/src/http_packet.h:88: error: 'http_parser' has not been declared/Users/andy/456/proj/GoodShephard/src/http_packet.h:89: error: 'http_parser' has not been declared/Users/andy/456/proj/GoodShephard/src/http_packet.h:90: error: 'http_parser' has not been declared/Users/andy/456/proj/GoodShephard/src/http_packet.h:91: error: 'http_parser' has not been declared/Users/andy/456/proj/GoodShephard/src/http_packet.h:92: error: 'http_parser' has not been declared/Users/andy/456/proj/GoodShephard/src/http_packet.h:93: error: 'http_parser' has not been declared/Users/andy/456/proj/GoodShephard/src/http_packet.h:94: error: 'http_parser' has not been declared/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp: In member function 'void HttpSniffer::start()':/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:49: error: 'boost' has not been declared/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:49: error: 'str' was not declared in this scope/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:49: error: 'runtime_error' was not declared in this scope/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:55: error: 'boost' has not been declared/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:55: error: 'str' was not declared in this scope/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:55: error: 'runtime_error' was not declared in this scope/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:59: error: 'boost' has not been declared/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:59: error: 'str' was not declared in this scope/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:59: error: 'runtime_error' was not declared in this scope/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:63: error: 'boost' has not been declared/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:63: error: 'str' was not declared in this scope/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:63: error: 'runtime_error' was not declared in this scope/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:67: error: 'boost' has not been declared/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:67: error: 'str' was not declared in this scope/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:67: error: 'runtime_error' was not declared in this scope/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp: In member function 'void HttpSniffer::got_packet(const pcap_pkthdr*, const u_char*)':/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:123: error: 'boost' has not been declared/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:134: error: 'boost' has not been declared/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:144: error: 'boost' has not been declared/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:160: error: 'boost' has not been declared/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:160: error: 'str' was not declared in this scope/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:160: error: 'runtime_error' was not declared in this scope/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:171: error: 'boost' has not been declared/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:187: error: 'boost' has not been declared/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:187: error: 'str' was not declared in this scope/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:187: error: 'runtime_error' was not declared in this scope/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:189: error: 'boost' has not been declared/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:195: error: 'boost' has not been declared/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:195: error: 'str' was not declared in this scope/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:196: error: 'boost' has not been declared/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:204: error: 'boost' has not been declared/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:204: error: 'str' was not declared in this scope/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp:205: error: 'boost' has not been declared45(4@43"Boost/format.hpp: No such file or directory319865129#0#113#0(6@54"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319860003#27#0#27#0#28"*: No such file or directory0(4@53"Boost/algorithm/string.hpp: No such file or directory319865130#273#120#3(7@76"In file included from /Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319865130#18446744073709551615#0#0(6@54"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319860003#29#0#29#0#0"0(7@74"In file included from /Users/andy/456/proj/GoodShephard/src/http_sniffer.h319865130#18446744073709551615#0#0(6@52"/Users/andy/456/proj/GoodShephard/src/http_sniffer.h319860005#29#0#29#0#0"0(13@108"Boost/algorithm/string.hpp: No such file or directory in /Users/andy/456/proj/GoodShephard/src/http_packet.h319865130#18446744073709551615#0#0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#34#0#34#0#0"0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#34#0#34#0#28"*: No such file or directory0(4@52"Http-parser/http_parser.h: No such file or directory319865130#393#119#3(7@76"In file included from /Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319865130#18446744073709551615#0#0(6@54"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319860003#29#0#29#0#0"0(7@74"In file included from /Users/andy/456/proj/GoodShephard/src/http_sniffer.h319865130#18446744073709551615#0#0(6@52"/Users/andy/456/proj/GoodShephard/src/http_sniffer.h319860005#29#0#29#0#0"0(13@107"Http-parser/http_parser.h: No such file or directory in /Users/andy/456/proj/GoodShephard/src/http_packet.h319865130#18446744073709551615#0#0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#35#0#35#0#0"0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#35#0#35#0#28"*: No such file or directory0(4@30"Field 'ip' has incomplete type319865130#750#87#4(7@76"In file included from /Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319865130#18446744073709551615#0#0(6@54"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319860003#29#0#29#0#0"0(7@74"In file included from /Users/andy/456/proj/GoodShephard/src/http_sniffer.h319865130#18446744073709551615#0#0(6@52"/Users/andy/456/proj/GoodShephard/src/http_sniffer.h319860005#29#0#29#0#0"0(7@73"In file included from /Users/andy/456/proj/GoodShephard/src/http_packet.h319865130#18446744073709551615#0#0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#36#0#36#0#0"0(13@78"Field 'ip' has incomplete type in /Users/andy/456/proj/GoodShephard/src/User.h319865130#18446744073709551615#0#0(6@44"/Users/andy/456/proj/GoodShephard/src/User.h319864967#27#0#27#0#0"0(6@44"/Users/andy/456/proj/GoodShephard/src/User.h319864967#27#0#27#0#29"field '*' has incomplete type0(4@34"'http_parser' does not name a type319865130#997#98#3(7@76"In file included from /Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319865130#18446744073709551615#0#0(6@54"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319860003#29#0#29#0#0"0(7@74"In file included from /Users/andy/456/proj/GoodShephard/src/http_sniffer.h319865130#18446744073709551615#0#0(6@52"/Users/andy/456/proj/GoodShephard/src/http_sniffer.h319860005#29#0#29#0#0"0(13@89"'http_parser' does not name a type in /Users/andy/456/proj/GoodShephard/src/http_packet.h319865130#18446744073709551615#0#0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#76#0#76#0#0"0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#76#0#76#0#24"'*' does not name a type0(4@43"'http_parser_settings' does not name a type319865130#1095#107#3(7@76"In file included from /Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319865130#18446744073709551615#0#0(6@54"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319860003#29#0#29#0#0"0(7@74"In file included from /Users/andy/456/proj/GoodShephard/src/http_sniffer.h319865130#18446744073709551615#0#0(6@52"/Users/andy/456/proj/GoodShephard/src/http_sniffer.h319860005#29#0#29#0#0"0(13@98"'http_parser_settings' does not name a type in /Users/andy/456/proj/GoodShephard/src/http_packet.h319865130#18446744073709551615#0#0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#77#0#77#0#0"0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#77#0#77#0#24"'*' does not name a type0(4@35"'http_parser' has not been declared319865130#1202#99#3(7@76"In file included from /Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319865130#18446744073709551615#0#0(6@54"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319860003#29#0#29#0#0"0(7@74"In file included from /Users/andy/456/proj/GoodShephard/src/http_sniffer.h319865130#18446744073709551615#0#0(6@52"/Users/andy/456/proj/GoodShephard/src/http_sniffer.h319860005#29#0#29#0#0"0(13@90"'http_parser' has not been declared in /Users/andy/456/proj/GoodShephard/src/http_packet.h319865130#18446744073709551615#0#0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#88#0#88#0#0"0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#88#0#88#0#25"'*' has not been declared0(4@35"'http_parser' has not been declared319865130#1301#99#3(7@76"In file included from /Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319865130#18446744073709551615#0#0(6@54"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319860003#29#0#29#0#0"0(7@74"In file included from /Users/andy/456/proj/GoodShephard/src/http_sniffer.h319865130#18446744073709551615#0#0(6@52"/Users/andy/456/proj/GoodShephard/src/http_sniffer.h319860005#29#0#29#0#0"0(13@90"'http_parser' has not been declared in /Users/andy/456/proj/GoodShephard/src/http_packet.h319865130#18446744073709551615#0#0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#89#0#89#0#0"0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#89#0#89#0#25"'*' has not been declared0(4@35"'http_parser' has not been declared319865130#1400#99#3(7@76"In file included from /Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319865130#18446744073709551615#0#0(6@54"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319860003#29#0#29#0#0"0(7@74"In file included from /Users/andy/456/proj/GoodShephard/src/http_sniffer.h319865130#18446744073709551615#0#0(6@52"/Users/andy/456/proj/GoodShephard/src/http_sniffer.h319860005#29#0#29#0#0"0(13@90"'http_parser' has not been declared in /Users/andy/456/proj/GoodShephard/src/http_packet.h319865130#18446744073709551615#0#0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#90#0#90#0#0"0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#90#0#90#0#25"'*' has not been declared0(4@35"'http_parser' has not been declared319865130#1499#99#3(7@76"In file included from /Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319865130#18446744073709551615#0#0(6@54"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319860003#29#0#29#0#0"0(7@74"In file included from /Users/andy/456/proj/GoodShephard/src/http_sniffer.h319865130#18446744073709551615#0#0(6@52"/Users/andy/456/proj/GoodShephard/src/http_sniffer.h319860005#29#0#29#0#0"0(13@90"'http_parser' has not been declared in /Users/andy/456/proj/GoodShephard/src/http_packet.h319865130#18446744073709551615#0#0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#91#0#91#0#0"0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#91#0#91#0#25"'*' has not been declared0(4@35"'http_parser' has not been declared319865130#1598#99#3(7@76"In file included from /Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319865130#18446744073709551615#0#0(6@54"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319860003#29#0#29#0#0"0(7@74"In file included from /Users/andy/456/proj/GoodShephard/src/http_sniffer.h319865130#18446744073709551615#0#0(6@52"/Users/andy/456/proj/GoodShephard/src/http_sniffer.h319860005#29#0#29#0#0"0(13@90"'http_parser' has not been declared in /Users/andy/456/proj/GoodShephard/src/http_packet.h319865130#18446744073709551615#0#0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#92#0#92#0#0"0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#92#0#92#0#25"'*' has not been declared0(4@35"'http_parser' has not been declared319865130#1697#99#3(7@76"In file included from /Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319865130#18446744073709551615#0#0(6@54"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319860003#29#0#29#0#0"0(7@74"In file included from /Users/andy/456/proj/GoodShephard/src/http_sniffer.h319865130#18446744073709551615#0#0(6@52"/Users/andy/456/proj/GoodShephard/src/http_sniffer.h319860005#29#0#29#0#0"0(13@90"'http_parser' has not been declared in /Users/andy/456/proj/GoodShephard/src/http_packet.h319865130#18446744073709551615#0#0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#93#0#93#0#0"0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#93#0#93#0#25"'*' has not been declared0(4@35"'http_parser' has not been declared319865130#1796#99#3(7@76"In file included from /Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319865130#18446744073709551615#0#0(6@54"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319860003#29#0#29#0#0"0(7@74"In file included from /Users/andy/456/proj/GoodShephard/src/http_sniffer.h319865130#18446744073709551615#0#0(6@52"/Users/andy/456/proj/GoodShephard/src/http_sniffer.h319860005#29#0#29#0#0"0(13@90"'http_parser' has not been declared in /Users/andy/456/proj/GoodShephard/src/http_packet.h319865130#18446744073709551615#0#0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#94#0#94#0#0"0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#94#0#94#0#25"'*' has not been declared0(4@29"'boost' has not been declared319865130#1999#96#0(6@54"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319860003#49#0#49#0#25"'*' has not been declared0(4@36"'str' was not declared in this scope319865130#2095#103#0(6@54"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319860003#49#0#49#0#34"'*' was not declared in this scope0(4@46"'runtime_error' was not declared in this scope319865130#2198#113#0(6@54"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319860003#49#0#49#0#34"'*' was not declared in this scope0(4@29"'boost' has not been declared319865130#2311#96#0(6@54"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319860003#55#0#55#0#25"'*' has not been declared0(4@36"'str' was not declared in this scope319865130#2407#103#0(6@54"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319860003#55#0#55#0#34"'*' was not declared in this scope0(4@46"'runtime_error' was not declared in this scope319865130#2510#113#0(6@54"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319860003#55#0#55#0#34"'*' was not declared in this scope0(4@29"'boost' has not been declared319865130#2623#96#0(6@54"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319860003#59#0#59#0#25"'*' has not been declared0(4@36"'str' was not declared in this scope319865130#2719#103#0(6@54"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319860003#59#0#59#0#34"'*' was not declared in this scope0(4@46"'runtime_error' was not declared in this scope319865130#2822#113#0(6@54"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319860003#59#0#59#0#34"'*' was not declared in this scope0(4@29"'boost' has not been declared319865130#2935#96#0(6@54"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319860003#63#0#63#0#25"'*' has not been declared0(4@36"'str' was not declared in this scope319865130#3031#103#0(6@54"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319860003#63#0#63#0#34"'*' was not declared in this scope0(4@46"'runtime_error' was not declared in this scope319865130#3134#113#0(6@54"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319860003#63#0#63#0#34"'*' was not declared in this scope0(4@29"'boost' has not been declared319865130#3247#96#0(6@54"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319860003#67#0#67#0#25"'*' has not been declared0(4@36"'str' was not declared in this scope319865130#3343#103#0(6@54"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319860003#67#0#67#0#34"'*' was not declared in this scope0(4@46"'runtime_error' was not declared in this scope319865130#3446#113#0(6@54"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319860003#67#0#67#0#34"'*' was not declared in this scope0(4@29"'boost' has not been declared319865130#3701#97#0(6@54"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319860003#123#0#123#0#25"'*' has not been declared0(4@29"'boost' has not been declared319865130#3798#97#0(6@54"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319860003#134#0#134#0#25"'*' has not been declared0(4@29"'boost' has not been declared319865130#3895#97#0(6@54"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319860003#144#0#144#0#25"'*' has not been declared0(4@29"'boost' has not been declared319865130#3992#97#0(6@54"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319860003#160#0#160#0#25"'*' has not been declared0(4@36"'str' was not declared in this scope319865130#4089#104#0(6@54"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319860003#160#0#160#0#34"'*' was not declared in this scope0(4@46"'runtime_error' was not declared in this scope319865130#4193#114#0(6@54"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319860003#160#0#160#0#34"'*' was not declared in this scope0(4@29"'boost' has not been declared319865130#4307#97#0(6@54"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319860003#171#0#171#0#25"'*' has not been declared0(4@29"'boost' has not been declared319865130#4404#97#0(6@54"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319860003#187#0#187#0#25"'*' has not been declared0(4@36"'str' was not declared in this scope319865130#4501#104#0(6@54"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319860003#187#0#187#0#34"'*' was not declared in this scope0(4@46"'runtime_error' was not declared in this scope319865130#4605#114#0(6@54"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319860003#187#0#187#0#34"'*' was not declared in this scope0(4@29"'boost' has not been declared319865130#4719#97#0(6@54"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319860003#189#0#189#0#25"'*' has not been declared0(4@29"'boost' has not been declared319865130#4816#97#0(6@54"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319860003#195#0#195#0#25"'*' has not been declared0(4@36"'str' was not declared in this scope319865130#4913#104#0(6@54"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319860003#195#0#195#0#34"'*' was not declared in this scope0(4@29"'boost' has not been declared319865130#5017#97#0(6@54"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319860003#196#0#196#0#25"'*' has not been declared0(4@29"'boost' has not been declared319865130#5114#97#0(6@54"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319860003#204#0#204#0#25"'*' has not been declared0(4@36"'str' was not declared in this scope319865130#5211#104#0(6@54"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319860003#204#0#204#0#34"'*' was not declared in this scope0(4@29"'boost' has not been declared319865130#5315#97#0(6@54"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp319860003#205#0#205#0#25"'*' has not been declared0(0#0#54"/Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp8627989056#1346"    cd /Users/andy/456/proj/GoodShephard    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/andy/456/proj/GoodShephard/build/GoodShephard.build/Debug/GoodShephard.build/GoodShephard-generated-files.hmap -I/Users/andy/456/proj/GoodShephard/build/GoodShephard.build/Debug/GoodShephard.build/GoodShephard-own-target-headers.hmap -I/Users/andy/456/proj/GoodShephard/build/GoodShephard.build/Debug/GoodShephard.build/GoodShephard-all-target-headers.hmap -iquote /Users/andy/456/proj/GoodShephard/build/GoodShephard.build/Debug/GoodShephard.build/GoodShephard-project-headers.hmap -F/Users/andy/456/proj/GoodShephard/build/Debug -I/Users/andy/456/proj/GoodShephard/build/Debug/include -I/Users/andy/456/proj/GoodShephard/build/GoodShephard.build/Debug/GoodShephard.build/DerivedSources/x86_64 -I/Users/andy/456/proj/GoodShephard/build/GoodShephard.build/Debug/GoodShephard.build/DerivedSources -c /Users/andy/456/proj/GoodShephard/src/http_sniffer.cpp -o /Users/andy/456/proj/GoodShephard/build/GoodShephard.build/Debug/GoodShephard.build/Objects-normal/x86_64/http_sniffer.o1#
-
-CCompileC build/GoodShephard.build/Debug/GoodShephard.build/Objects-normal/x86_64/main.o /Users/andy/456/proj/GoodShephard/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/GoodShephard.build/Debug/GoodShephard.build/Objects-normal/x86_64/main.o /Users/andy/456/proj/GoodShephard/src/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-s319865129.679411
-e319865130.524898
-r0
-xCompileC
-xbuild/GoodShephard.build/Debug/GoodShephard.build/Objects-normal/x86_64/main.o
-x/Users/andy/456/proj/GoodShephard/src/main.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.gcc.4_2
-oIn file included from /Users/andy/456/proj/GoodShephard/src/http_sniffer.h:29,
-o                 from /Users/andy/456/proj/GoodShephard/src/main.cpp:10:
-o/Users/andy/456/proj/GoodShephard/src/http_packet.h:34:38: error: boost/algorithm/string.hpp: No such file or directory
-o/Users/andy/456/proj/GoodShephard/src/http_packet.h:35:37: error: http-parser/http_parser.h: No such file or directory
-oIn file included from /Users/andy/456/proj/GoodShephard/src/http_packet.h:36,
-o                 from /Users/andy/456/proj/GoodShephard/src/http_sniffer.h:29,
-o                 from /Users/andy/456/proj/GoodShephard/src/main.cpp:10:
-o/Users/andy/456/proj/GoodShephard/src/User.h:27: error: field 'ip' has incomplete type
-oIn file included from /Users/andy/456/proj/GoodShephard/src/http_sniffer.h:29,
-o                 from /Users/andy/456/proj/GoodShephard/src/main.cpp:10:
-o/Users/andy/456/proj/GoodShephard/src/http_packet.h:76: error: 'http_parser' does not name a type
-o/Users/andy/456/proj/GoodShephard/src/http_packet.h:77: error: 'http_parser_settings' does not name a type
-o/Users/andy/456/proj/GoodShephard/src/http_packet.h:88: error: 'http_parser' has not been declared
-o/Users/andy/456/proj/GoodShephard/src/http_packet.h:89: error: 'http_parser' has not been declared
-o/Users/andy/456/proj/GoodShephard/src/http_packet.h:90: error: 'http_parser' has not been declared
-o/Users/andy/456/proj/GoodShephard/src/http_packet.h:91: error: 'http_parser' has not been declared
-o/Users/andy/456/proj/GoodShephard/src/http_packet.h:92: error: 'http_parser' has not been declared
-o/Users/andy/456/proj/GoodShephard/src/http_packet.h:93: error: 'http_parser' has not been declared
-o/Users/andy/456/proj/GoodShephard/src/http_packet.h:94: error: 'http_parser' has not been declared
-lSLF07#2@54"Compile /Users/andy/456/proj/GoodShephard/src/main.cpp319865129#319865130#0(1758"In file included from /Users/andy/456/proj/GoodShephard/src/http_sniffer.h:29,                 from /Users/andy/456/proj/GoodShephard/src/main.cpp:10:/Users/andy/456/proj/GoodShephard/src/http_packet.h:34:38: error: boost/algorithm/string.hpp: No such file or directory/Users/andy/456/proj/GoodShephard/src/http_packet.h:35:37: error: http-parser/http_parser.h: No such file or directoryIn file included from /Users/andy/456/proj/GoodShephard/src/http_packet.h:36,                 from /Users/andy/456/proj/GoodShephard/src/http_sniffer.h:29,                 from /Users/andy/456/proj/GoodShephard/src/main.cpp:10:/Users/andy/456/proj/GoodShephard/src/User.h:27: error: field 'ip' has incomplete typeIn file included from /Users/andy/456/proj/GoodShephard/src/http_sniffer.h:29,                 from /Users/andy/456/proj/GoodShephard/src/main.cpp:10:/Users/andy/456/proj/GoodShephard/src/http_packet.h:76: error: 'http_parser' does not name a type/Users/andy/456/proj/GoodShephard/src/http_packet.h:77: error: 'http_parser_settings' does not name a type/Users/andy/456/proj/GoodShephard/src/http_packet.h:88: error: 'http_parser' has not been declared/Users/andy/456/proj/GoodShephard/src/http_packet.h:89: error: 'http_parser' has not been declared/Users/andy/456/proj/GoodShephard/src/http_packet.h:90: error: 'http_parser' has not been declared/Users/andy/456/proj/GoodShephard/src/http_packet.h:91: error: 'http_parser' has not been declared/Users/andy/456/proj/GoodShephard/src/http_packet.h:92: error: 'http_parser' has not been declared/Users/andy/456/proj/GoodShephard/src/http_packet.h:93: error: 'http_parser' has not been declared/Users/andy/456/proj/GoodShephard/src/http_packet.h:94: error: 'http_parser' has not been declared12(4@53"Boost/algorithm/string.hpp: No such file or directory319865130#152#120#3(7@68"In file included from /Users/andy/456/proj/GoodShephard/src/main.cpp319865130#18446744073709551615#0#0(6@46"/Users/andy/456/proj/GoodShephard/src/main.cpp319864869#10#0#10#0#0"0(7@74"In file included from /Users/andy/456/proj/GoodShephard/src/http_sniffer.h319865130#18446744073709551615#0#0(6@52"/Users/andy/456/proj/GoodShephard/src/http_sniffer.h319860005#29#0#29#0#0"0(13@108"Boost/algorithm/string.hpp: No such file or directory in /Users/andy/456/proj/GoodShephard/src/http_packet.h319865130#18446744073709551615#0#0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#34#0#34#0#0"0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#34#0#34#0#28"*: No such file or directory0(4@52"Http-parser/http_parser.h: No such file or directory319865130#272#119#3(7@68"In file included from /Users/andy/456/proj/GoodShephard/src/main.cpp319865130#18446744073709551615#0#0(6@46"/Users/andy/456/proj/GoodShephard/src/main.cpp319864869#10#0#10#0#0"0(7@74"In file included from /Users/andy/456/proj/GoodShephard/src/http_sniffer.h319865130#18446744073709551615#0#0(6@52"/Users/andy/456/proj/GoodShephard/src/http_sniffer.h319860005#29#0#29#0#0"0(13@107"Http-parser/http_parser.h: No such file or directory in /Users/andy/456/proj/GoodShephard/src/http_packet.h319865130#18446744073709551615#0#0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#35#0#35#0#0"0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#35#0#35#0#28"*: No such file or directory0(4@30"Field 'ip' has incomplete type319865130#621#87#4(7@68"In file included from /Users/andy/456/proj/GoodShephard/src/main.cpp319865130#18446744073709551615#0#0(6@46"/Users/andy/456/proj/GoodShephard/src/main.cpp319864869#10#0#10#0#0"0(7@74"In file included from /Users/andy/456/proj/GoodShephard/src/http_sniffer.h319865130#18446744073709551615#0#0(6@52"/Users/andy/456/proj/GoodShephard/src/http_sniffer.h319860005#29#0#29#0#0"0(7@73"In file included from /Users/andy/456/proj/GoodShephard/src/http_packet.h319865130#18446744073709551615#0#0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#36#0#36#0#0"0(13@78"Field 'ip' has incomplete type in /Users/andy/456/proj/GoodShephard/src/User.h319865130#18446744073709551615#0#0(6@44"/Users/andy/456/proj/GoodShephard/src/User.h319864967#27#0#27#0#0"0(6@44"/Users/andy/456/proj/GoodShephard/src/User.h319864967#27#0#27#0#29"field '*' has incomplete type0(4@34"'http_parser' does not name a type319865130#860#98#3(7@68"In file included from /Users/andy/456/proj/GoodShephard/src/main.cpp319865130#18446744073709551615#0#0(6@46"/Users/andy/456/proj/GoodShephard/src/main.cpp319864869#10#0#10#0#0"0(7@74"In file included from /Users/andy/456/proj/GoodShephard/src/http_sniffer.h319865130#18446744073709551615#0#0(6@52"/Users/andy/456/proj/GoodShephard/src/http_sniffer.h319860005#29#0#29#0#0"0(13@89"'http_parser' does not name a type in /Users/andy/456/proj/GoodShephard/src/http_packet.h319865130#18446744073709551615#0#0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#76#0#76#0#0"0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#76#0#76#0#24"'*' does not name a type0(4@43"'http_parser_settings' does not name a type319865130#958#107#3(7@68"In file included from /Users/andy/456/proj/GoodShephard/src/main.cpp319865130#18446744073709551615#0#0(6@46"/Users/andy/456/proj/GoodShephard/src/main.cpp319864869#10#0#10#0#0"0(7@74"In file included from /Users/andy/456/proj/GoodShephard/src/http_sniffer.h319865130#18446744073709551615#0#0(6@52"/Users/andy/456/proj/GoodShephard/src/http_sniffer.h319860005#29#0#29#0#0"0(13@98"'http_parser_settings' does not name a type in /Users/andy/456/proj/GoodShephard/src/http_packet.h319865130#18446744073709551615#0#0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#77#0#77#0#0"0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#77#0#77#0#24"'*' does not name a type0(4@35"'http_parser' has not been declared319865130#1065#99#3(7@68"In file included from /Users/andy/456/proj/GoodShephard/src/main.cpp319865130#18446744073709551615#0#0(6@46"/Users/andy/456/proj/GoodShephard/src/main.cpp319864869#10#0#10#0#0"0(7@74"In file included from /Users/andy/456/proj/GoodShephard/src/http_sniffer.h319865130#18446744073709551615#0#0(6@52"/Users/andy/456/proj/GoodShephard/src/http_sniffer.h319860005#29#0#29#0#0"0(13@90"'http_parser' has not been declared in /Users/andy/456/proj/GoodShephard/src/http_packet.h319865130#18446744073709551615#0#0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#88#0#88#0#0"0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#88#0#88#0#25"'*' has not been declared0(4@35"'http_parser' has not been declared319865130#1164#99#3(7@68"In file included from /Users/andy/456/proj/GoodShephard/src/main.cpp319865130#18446744073709551615#0#0(6@46"/Users/andy/456/proj/GoodShephard/src/main.cpp319864869#10#0#10#0#0"0(7@74"In file included from /Users/andy/456/proj/GoodShephard/src/http_sniffer.h319865130#18446744073709551615#0#0(6@52"/Users/andy/456/proj/GoodShephard/src/http_sniffer.h319860005#29#0#29#0#0"0(13@90"'http_parser' has not been declared in /Users/andy/456/proj/GoodShephard/src/http_packet.h319865130#18446744073709551615#0#0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#89#0#89#0#0"0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#89#0#89#0#25"'*' has not been declared0(4@35"'http_parser' has not been declared319865130#1263#99#3(7@68"In file included from /Users/andy/456/proj/GoodShephard/src/main.cpp319865130#18446744073709551615#0#0(6@46"/Users/andy/456/proj/GoodShephard/src/main.cpp319864869#10#0#10#0#0"0(7@74"In file included from /Users/andy/456/proj/GoodShephard/src/http_sniffer.h319865130#18446744073709551615#0#0(6@52"/Users/andy/456/proj/GoodShephard/src/http_sniffer.h319860005#29#0#29#0#0"0(13@90"'http_parser' has not been declared in /Users/andy/456/proj/GoodShephard/src/http_packet.h319865130#18446744073709551615#0#0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#90#0#90#0#0"0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#90#0#90#0#25"'*' has not been declared0(4@35"'http_parser' has not been declared319865130#1362#99#3(7@68"In file included from /Users/andy/456/proj/GoodShephard/src/main.cpp319865130#18446744073709551615#0#0(6@46"/Users/andy/456/proj/GoodShephard/src/main.cpp319864869#10#0#10#0#0"0(7@74"In file included from /Users/andy/456/proj/GoodShephard/src/http_sniffer.h319865130#18446744073709551615#0#0(6@52"/Users/andy/456/proj/GoodShephard/src/http_sniffer.h319860005#29#0#29#0#0"0(13@90"'http_parser' has not been declared in /Users/andy/456/proj/GoodShephard/src/http_packet.h319865130#18446744073709551615#0#0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#91#0#91#0#0"0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#91#0#91#0#25"'*' has not been declared0(4@35"'http_parser' has not been declared319865130#1461#99#3(7@68"In file included from /Users/andy/456/proj/GoodShephard/src/main.cpp319865130#18446744073709551615#0#0(6@46"/Users/andy/456/proj/GoodShephard/src/main.cpp319864869#10#0#10#0#0"0(7@74"In file included from /Users/andy/456/proj/GoodShephard/src/http_sniffer.h319865130#18446744073709551615#0#0(6@52"/Users/andy/456/proj/GoodShephard/src/http_sniffer.h319860005#29#0#29#0#0"0(13@90"'http_parser' has not been declared in /Users/andy/456/proj/GoodShephard/src/http_packet.h319865130#18446744073709551615#0#0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#92#0#92#0#0"0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#92#0#92#0#25"'*' has not been declared0(4@35"'http_parser' has not been declared319865130#1560#99#3(7@68"In file included from /Users/andy/456/proj/GoodShephard/src/main.cpp319865130#18446744073709551615#0#0(6@46"/Users/andy/456/proj/GoodShephard/src/main.cpp319864869#10#0#10#0#0"0(7@74"In file included from /Users/andy/456/proj/GoodShephard/src/http_sniffer.h319865130#18446744073709551615#0#0(6@52"/Users/andy/456/proj/GoodShephard/src/http_sniffer.h319860005#29#0#29#0#0"0(13@90"'http_parser' has not been declared in /Users/andy/456/proj/GoodShephard/src/http_packet.h319865130#18446744073709551615#0#0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#93#0#93#0#0"0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#93#0#93#0#25"'*' has not been declared0(4@35"'http_parser' has not been declared319865130#1659#99#3(7@68"In file included from /Users/andy/456/proj/GoodShephard/src/main.cpp319865130#18446744073709551615#0#0(6@46"/Users/andy/456/proj/GoodShephard/src/main.cpp319864869#10#0#10#0#0"0(7@74"In file included from /Users/andy/456/proj/GoodShephard/src/http_sniffer.h319865130#18446744073709551615#0#0(6@52"/Users/andy/456/proj/GoodShephard/src/http_sniffer.h319860005#29#0#29#0#0"0(13@90"'http_parser' has not been declared in /Users/andy/456/proj/GoodShephard/src/http_packet.h319865130#18446744073709551615#0#0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#94#0#94#0#0"0(6@51"/Users/andy/456/proj/GoodShephard/src/http_packet.h319859356#94#0#94#0#25"'*' has not been declared0(0#0#46"/Users/andy/456/proj/GoodShephard/src/main.cpp8627835648#1330"    cd /Users/andy/456/proj/GoodShephard    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/andy/456/proj/GoodShephard/build/GoodShephard.build/Debug/GoodShephard.build/GoodShephard-generated-files.hmap -I/Users/andy/456/proj/GoodShephard/build/GoodShephard.build/Debug/GoodShephard.build/GoodShephard-own-target-headers.hmap -I/Users/andy/456/proj/GoodShephard/build/GoodShephard.build/Debug/GoodShephard.build/GoodShephard-all-target-headers.hmap -iquote /Users/andy/456/proj/GoodShephard/build/GoodShephard.build/Debug/GoodShephard.build/GoodShephard-project-headers.hmap -F/Users/andy/456/proj/GoodShephard/build/Debug -I/Users/andy/456/proj/GoodShephard/build/Debug/include -I/Users/andy/456/proj/GoodShephard/build/GoodShephard.build/Debug/GoodShephard.build/DerivedSources/x86_64 -I/Users/andy/456/proj/GoodShephard/build/GoodShephard.build/Debug/GoodShephard.build/DerivedSources -c /Users/andy/456/proj/GoodShephard/src/main.cpp -o /Users/andy/456/proj/GoodShephard/build/GoodShephard.build/Debug/GoodShephard.build/Objects-normal/x86_64/main.o1#
-
-CLd /Users/andy/456/proj/GoodShephard/build/Debug/GoodShephard normal x86_64
-r0
-
