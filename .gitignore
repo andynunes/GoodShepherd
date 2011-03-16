@@ -1,0 +1,6 @@
+GoodShephard
+GoodShephard.dSYM/
+sniffs/
+.DS_Store
+Model.xcclassmodel/
+build
