@@ -35,7 +35,7 @@
 HttpSniffer::HttpSniffer (string first, string filter, http_packet_cb callback)
 : m_filter(filter), m_callback(callback)
 {
-   cerr << "first = " << first << endl;
+//   cerr << "first = " << first << endl;
    m_offline = offline;
    if (offline) {
       m_pcap_filename = first;

@@ -10,8 +10,6 @@
 #ifndef GOODSHEPHARD_HANDLERS_H
 #define GOODSHEPHARD_HANDLERS_H
 
-#define FOO(fmt, ...) printf(fmt, __VA_ARGS__)
-
 #include <set>
 #include <map>
 #include <string>

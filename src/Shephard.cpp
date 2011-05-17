@@ -29,7 +29,7 @@ void Shephard::received_packet(HttpPacket *packet) {
       return;
    }
    
-   cout << "primary domain: " << primary << endl;
+   DEBUG_STRING("primary domain: %s", primary.c_str());
    
    //check primary domain against list of handler URL's
    cs = handlers.getCookieNames(primary);
@@ -99,9 +99,9 @@ void Shephard::received_packet(HttpPacket *packet) {
       //insert this session and user into the cache (map)
       cache.insert(pair<Session, User>(sesh, user));
       //cache.insert(SessionUserPair); 
-      cerr << "Inserted new entry into cache:\n";
-      cerr << "session: " << sesh.toString() << endl;
-      cerr << "user: " << user.toString() << endl;
+      DEBUG_LINE("Inserted new entry into cache:\n");
+      DEBUG_STRING("session: %s\n", sesh.toString().c_str());
+      DEBUG_STRING("user: %s\n", user.toString().c_str());
    }
    
    printSessionCache();
@@ -114,12 +114,13 @@ void Shephard::received_packet(HttpPacket *packet) {
 void Shephard::printSessionCache() {
    SessionCache::const_iterator it = cache.begin();
    
-   cout << "------------Session Cache:---------------" << endl;
+   DEBUG_LINE("------------Session Cache:---------------");
    for (; it != cache.end(); it++ ) {
       Session sesh = it->first;
       User user = it->second;
-      cout << sesh.getDomain() << endl;
-      cout << sesh.getCookieString() << ": " << user.getIP() << " & " << user.getUserAgent() << endl;
+      DEBUG_STRING("domain: %s\n", sesh.getDomain().c_str());
+      DEBUG_STRING("cookie: %s\n", sesh.getCookieString().c_str());
+      DEBUG_STRING("user: %s & %s\n", user.getIP().c_str(), user.getUserAgent().c_str());
    }
 }
 

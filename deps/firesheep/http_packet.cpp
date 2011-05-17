@@ -110,9 +110,9 @@ void HttpPacket::add_header(string name, string value)
     // FIXME: Technically this is allowed in certain situations, but I doubt 
     // any browsers would do this.
     // http://github.com/ry/node/blob/master/lib/http.js#L219
-    cerr << "Ignoring duplicate header: " << name << endl;
-    cerr << "  Old: " << m_headers[name] << endl;
-    cerr << "  New: " << value << endl;
+    // cerr << "Ignoring duplicate header: " << name << endl;
+    // cerr << "  Old: " << m_headers[name] << endl;
+    // cerr << "  New: " << value << endl;
   }
 }
 

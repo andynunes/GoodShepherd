@@ -110,16 +110,19 @@ void HandlerList::createAndAddHandler(string domainName, logout_callback cb, uin
 }
 
 int handler_amazon(CookieMap) {
-   cout << "Amazon logout handler called! Yay for sidejacking!" << endl;
+   cout << "Amazon logout handler called!  Sidejacking attempt successfully detected!" << endl;
+   //create and send packet(s) to log user out and hopefully invalidate the session
    return EXIT_SUCCESS;
 }
 
 int handler_facebook(CookieMap) {
-   cout << "Facebook logout handler called! Yay for sidejacking!" << endl;
+   cout << "Facebook logout handler called!  Sidejacking attempt successfully detected!" << endl;
+   //create and send packet(s) to log user out and hopefully invalidate the session
    return EXIT_SUCCESS;
 }
 
 int handler_yahoo(CookieMap) {
-   cout << "Yahoo logout handler called! Yay for sidejacking!" << endl;
+   cout << "Yahoo logout handler called! Sidejacking attempt successfully detected!" << endl;
+   //create and send packet(s) to log user out and hopefully invalidate the session
    return EXIT_SUCCESS;
 }
